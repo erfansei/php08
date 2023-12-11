@@ -32,14 +32,14 @@
             return $this->items;
         }
     }
-    $p1=new Plan("Short Plan","7 Days",40000);
-    $p2=new Plan("Standard Plan","30 Days",80000);
-    $p3=new Plan("Economy Plan","6 Months",350000);
+    $p1=new Plan("Short Plan","7 Days",8);
+    $p2=new Plan("Standard Plan","30 Days",20);
+    $p3=new Plan("Economy Plan","6 Months",100);
 
     $pCol=new PCollection();
     $pCol->addPlan($p1);
     $pCol->addPlan($p2);
     $pCol->addPlan($p3);
-    $pCol->addPlan(new Plan("Business Plan","1 Year",550000));
+    $pCol->addPlan(new Plan("Business Plan","1 Year",170));
     
 ?>
